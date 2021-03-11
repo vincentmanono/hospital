@@ -1,6 +1,6 @@
-<nav class="navbar py-4 navbar-expand-lg ftco_navbar navbar-light bg-light flex-row">
+{{-- <nav class="navbar py-4 navbar-expand-lg ftco_navbar navbar-light  flex-row">
     <div class="container">
-        <div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0">
+        <div class="row no-gutters d-flex align-items-start  align-items-center px-3 px-md-0">
             <div class="col-lg-2 pr-4 align-items-center">
                 <a class="navbar-brand" href="index.html">Dr.<span>care</span></a>
             </div>
@@ -22,8 +22,8 @@
             </div>
         </div>
       </div>
-</nav>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+</nav> --}}
+<nav class="navbar navbar-expand-lg navbar-dark bg-light ftco-navbar-light" id="ftco-navbar">
     <div class="container d-flex align-items-center">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
@@ -33,9 +33,9 @@
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active"><a href="/" class="nav-link pl-0">Home</a></li>
             <li class="nav-item"><a href="about" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="/doctor" class="nav-link">Doctor</a></li>
-            <li class="nav-item"><a href="/departments" class="nav-link">Departments</a></li>
-            <li class="nav-item"><a href="/pricing " class="nav-link">Pricing</a></li>
+            <li class="nav-item"><a href="/doctor" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="/departments" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"><a href="/pricing " class="nav-link">Gallery</a></li>
             <li class="nav-item"><a href="/blog" class="nav-link">Blog</a></li>
           <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
         </ul>
