@@ -1,7 +1,7 @@
 @extends('layout.mainapp')
 
 @section('content')
-{{-- <div>
+    {{-- <div>
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item  active" data-interval="2500">
@@ -46,61 +46,63 @@
 </div> --}}
 
     <section class="home-slider owl-carousel">
-        <div class="slider-item" style="background-image:url({{ asset('frontEnd') }}/images/slider/slider2.jpg);background-size: 100% 490px;">
+        <div class="slider-item"
+            style="background-image:url({{ asset('frontEnd') }}/images/slider/slider2.jpg);background-size: 100% 490px;">
             <div class="overlay"></div>
             <div class="container">
-                <div class="row no-gutters slider-text align-items-center justify-content-start"
+                {{--  <div class="row no-gutters slider-text align-items-center justify-content-start"
                     data-scrollax-parent="true">
                     <div class="col-md-6 text ftco-animate">
-                        <h1 class="mb-4">We Care <span>About Your Health</span></h1>
-                        <h3 class="subheading">Your Health is Our Top Priority with Comprehensive, Affordable medical.</h3>
+                        <h1 class="mb-4">We Care <span>About Your Design</span></h1>
+                        <h3 class="subheading">Your Design is Our Top Priority with Comprehensive, Affordable price.</h3>
                         <p><a href="#" class="btn btn-secondary px-4 py-3 mt-3">View our works</a></p>
                     </div>
-                </div>
+                </div>  --}}
             </div>
         </div>
-        <div class="slider-item" style="background-image:url({{ asset('frontEnd') }}/images/slider/slider1.jpg); background-size: 100% 490px;
-            data-stellar-background-ratio="0.5">
+        <div class="slider-item" style="background-image:url({{ asset('frontEnd') }}/images/slider/slider1.jpg); background-size: 100% 490px;"
+                    data-stellar-background-ratio=" 0.5">
             <div class="overlay"></div>
             <div class="container">
-                <div class="row no-gutters slider-text align-items-center justify-content-start"
+                {{--  <div class="row no-gutters slider-text align-items-center justify-content-start"
                     data-scrollax-parent="true">
                     <div class="col-md-6 text ftco-animate">
                         <h1 class="mb-4">Helping Your <span>Stay Happy One</span></h1>
-                        <h3 class="subheading">Everyday We Bring Hope and Smile to the Patient We Serve</h3>
+                        <h3 class="subheading">Everyday We Bring Hope and Smile to the Customers We Serve</h3>
                         <p><a href="#" class="btn btn-secondary px-4 py-3 mt-3">View our works</a></p>
                     </div>
-                </div>
+                </div>  --}}
             </div>
         </div>
 
-        <div class="slider-item" style="background-image:url({{ asset('frontEnd') }}/images/slider/slider2.jpg);background-size: 100% 490px;">
+        <div class="slider-item"
+            style="background-image:url({{ asset('frontEnd') }}/images/slider/slider2.jpg);background-size: 100% 490px;">
             <div class="overlay"></div>
             <div class="container">
-                <div class="row no-gutters slider-text align-items-center justify-content-start"
+                {{--  <div class="row no-gutters slider-text align-items-center justify-content-start"
                     data-scrollax-parent="true">
                     <div class="col-md-6 text ftco-animate">
-                        <h1 class="mb-4">We Care <span>About Your Health</span></h1>
-                        <h3 class="subheading">Your Health is Our Top Priority with Comprehensive, Affordable medical.</h3>
+                        <h1 class="mb-4">We Care <span>About Your Design</span></h1>
+                        <h3 class="subheading">Your Design is Our Top Priority with Comprehensive, Affordable price.</h3>
                         <p><a href="#" class="btn btn-secondary px-4 py-3 mt-3">View our works</a></p>
                     </div>
-                </div>
+                </div>  --}}
             </div>
         </div>
-        <div class="slider-item" style="background-image:url({{ asset('frontEnd') }}/images/slider/slider1.jpg); background-size: 100% 490px;
-        data-stellar-background-ratio="0.5">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row no-gutters slider-text align-items-center justify-content-start"
-                data-scrollax-parent="true">
-                <div class="col-md-6 text ftco-animate">
-                    <h1 class="mb-4">Helping Your <span>Stay Happy One</span></h1>
-                    <h3 class="subheading">Everyday We Bring Hope and Smile to the Patient We Serve</h3>
-                    <p><a href="#" class="btn btn-secondary px-4 py-3 mt-3">View our works</a></p>
-                </div>
+        <div class="slider-item" style="background-image:url({{ asset('frontEnd') }}/images/slider/slider1.jpg); background-size: 100% 490px;"
+                data-stellar-background-ratio=" 0.5">
+            <div class="overlay"></div>
+            <div class="container">
+                {{--  <div class="row no-gutters slider-text align-items-center justify-content-start"
+                    data-scrollax-parent="true">
+                    <div class="col-md-6 text ftco-animate">
+                        <h1 class="mb-4">Helping Your <span>Stay Happy One</span></h1>
+                        <h3 class="subheading">Everyday We Bring Hope and Smile to the Customers We Serve</h3>
+                        <p><a href="#" class="btn btn-secondary px-4 py-3 mt-3">View our works</a></p>
+                    </div>
+                </div>  --}}
             </div>
         </div>
-    </div>
     </section>
 
     {{-- <section class="ftco-services ftco-no-pb">
@@ -157,22 +159,20 @@
             </div>
         </div>
     </section> --}}
+
     <div>
         <section class="ftco-section ftco-no-pt ftc-no-pb">
             <div class="container">
                 <div class="row no-gutters">
-                    <div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/about.jpg);">
+                    <div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0">
+
+                        <img src="{{ asset('frontEnd/images/sawa.jpg') }}" height="450 px" width="520 px" alt="">
+
                     </div>
                     <div class="col-md-7 wrap-about py-4 py-md-5 ftco-animate">
-                        <div class="heading-section mb-5">
-                            <div class="pl-md-5 ml-md-5">
-                                <span class="subheading">About Sawa Print</span>
-                                <h2 class="mb-4" style="font-size: 28px;">Medical specialty concerned with the care of
-                                    acutely
-                                    ill hospitalized patients</h2>
-                            </div>
-                        </div>
+
                         <div class="pl-md-5 ml-md-5 mb-5">
+                            <h3 style=" margin-left:30%;"> <strong>About Us</strong> </h3>
                             <p>SAWAPRINT is a branding and printing company based in the heart of
                                 Nairobi, Kenya offering a full range of branding and printing services to a
                                 variety of clients operating across many different industry sectors.
@@ -185,16 +185,16 @@
                                 reputation is built on the successful delivery
                                 of all assignments, no matter how challenging the brief or how tight the
                                 business cards to corporate brochures, we collaborate
-                                 of printing. Our strong
+                                of printing. Our strong
                                 timeframe. From
                                 with the customer to understand their requirements fully and to provide
                                 the optimal results using the highest specifications appropriate for their
                                 We pride ourselves on professionalism, loyalty and a commit
                                 ment to upholding
-                                 budget.
+                                budget.
                                 the needs of our clients, making Sawa Print
                                 the premier destination for branding and printing.</p>
-                            <div class="row mt-5 pt-2">
+                            {{-- <div class="row mt-5 pt-2">
                                 <div class="col-lg-6">
                                     <div class="services-2 d-flex">
                                         <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
@@ -235,7 +235,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
@@ -244,18 +244,18 @@
 
     </div>
 
-    <section class="ftco-intro" style="background-image: url({{ asset('frontEnd') }}/images/bg_3.jpg);"
+    <section class="ftco-intro" style="background-image: url({{ asset('frontEnd') }}/images/sawabg.jpg);"
         data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-9">
-                    <h2>We Provide Free Health Care Consultation</h2>
-                    <p class="mb-0">Your Health is Our Top Priority with Comprehensive, Affordable medical.</p>
+                    <h2>We Provide The Best Graphic Design Work</h2>
+                    <p class="mb-0">Your Design is Our Top Priority with Comprehensive, Affordable price.</p>
                     <p></p>
                 </div>
                 <div class="col-md-3 d-flex align-items-center">
-                    <p class="mb-0"><a href="#" class="btn btn-secondary px-4 py-3">Free Consutation</a></p>
+                    <p class="mb-0"><a href="#" class="btn btn-secondary px-4 py-3">Contact Us</a></p>
                 </div>
             </div>
         </div>
@@ -265,10 +265,12 @@
         <div class="container">
             <div class="row justify-content-center mb-5 pb-2">
                 <div class="col-md-8 text-center heading-section ftco-animate">
-                    <span class="subheading">Departments</span>
-                    <h2 class="mb-4">Clinic Departments</h2>
-                    <p>Separated they live in. A small river named Duden flows by their place and supplies it with the
-                        necessary regelialia. It is a paradisematic country</p>
+                    <span class="subheading">Services</span>
+                    <h2 class="mb-4">Categoris of our Services</h2>
+                    <p>Established in 2019, Sawa Print and designs is the only partner you
+                        need for all your branding and printing needs. We understand the importance of good customer service
+                        and our team of expert staff will liaise
+                        with you to get the results you want at an affordable price.</p>
                 </div>
             </div>
             <div class="ftco-departments">
@@ -277,19 +279,19 @@
                         <div class="nav nav-pills d-flex text-center" id="v-pills-tab" role="tablist"
                             aria-orientation="vertical">
                             <a class="nav-link ftco-animate active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1"
-                                role="tab" aria-controls="v-pills-1" aria-selected="true">Neurology</a>
+                                role="tab" aria-controls="v-pills-1" aria-selected="true">Branding</a>
 
                             <a class="nav-link ftco-animate" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2"
-                                role="tab" aria-controls="v-pills-2" aria-selected="false">Surgical</a>
+                                role="tab" aria-controls="v-pills-2" aria-selected="false">Corporate Design</a>
 
                             <a class="nav-link ftco-animate" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3"
-                                role="tab" aria-controls="v-pills-3" aria-selected="false">Dental</a>
+                                role="tab" aria-controls="v-pills-3" aria-selected="false">Large Format Printing</a>
 
                             <a class="nav-link ftco-animate" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4"
-                                role="tab" aria-controls="v-pills-4" aria-selected="false">Ophthalmology</a>
+                                role="tab" aria-controls="v-pills-4" aria-selected="false">Online Printing</a>
 
                             <a class="nav-link ftco-animate" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5"
-                                role="tab" aria-controls="v-pills-5" aria-selected="false">Cardiology</a>
+                                role="tab" aria-controls="v-pills-5" aria-selected="false">Packaging and Labelling</a>
 
                         </div>
                     </div>
@@ -302,23 +304,28 @@
                                 <div class="row departments">
                                     <div class="col-lg-4 order-lg-last d-flex align-items-stretch">
                                         <div class="img d-flex align-self-stretch"
-                                            style="background-image: url({{ asset('frontEnd') }}/images/dept-1.jpg);">
+                                            style="background-image: url({{ asset('frontEnd') }}/images/services/branding.PNG);">
                                         </div>
                                     </div>
                                     <div class="col-lg-8">
-                                        <h2>Neurological Deparments</h2>
-                                        <p>On her way she met a copy. The copy warned the Little Blind Text, that where it
-                                            came from it would have been rewritten a thousand times and everything that was
-                                            left from its origin would be the word.</p>
+                                        <h2>Branding</h2>
+                                        <p>Our large format printing capability produces high resolution PVC banners,
+                                            roll-up banners display banners, pop-up banners,pvc vinyl stickers, POS,
+                                            billboards, floorgraphics, one way stickers,Instore Branding (wabblers,
+                                            danglers,
+                                            shelf strip,shelf talkers, table talkers, standees) outdoor branding solutions
+                                            and much more.</p>
                                         <div class="row mt-5 pt-2">
                                             <div class="col-lg-6">
                                                 <div class="services-2 d-flex">
                                                     <div
                                                         class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
-                                                        <span class="flaticon-first-aid-kit"></span>
+                                                        <span> <img
+                                                                src="{{ asset('/frontEnd/images/services/icons/printer.png') }}"
+                                                                alt=""> </span>
                                                     </div>
                                                     <div class="text">
-                                                        <h3>Primary Care</h3>
+                                                        <h3>Caps and Shirt</h3>
                                                         <p>Far far away, behind the word mountains, far from the countries
                                                             Vokalia.</p>
                                                     </div>
@@ -328,10 +335,12 @@
                                                 <div class="services-2 d-flex">
                                                     <div
                                                         class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
-                                                        <span class="flaticon-dropper"></span>
+                                                        <span> <img
+                                                            src="{{ asset('/frontEnd/images/services/icons/printer.png') }}"
+                                                            alt=""> </span>
                                                     </div>
                                                     <div class="text">
-                                                        <h3>Lab Test</h3>
+                                                        <h3>Wall Clock</h3>
                                                         <p>Far far away, behind the word mountains, far from the countries
                                                             Vokalia.</p>
                                                     </div>
@@ -341,10 +350,12 @@
                                                 <div class="services-2 d-flex">
                                                     <div
                                                         class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
-                                                        <span class="flaticon-experiment-results"></span>
+                                                        <span> <img
+                                                            src="{{ asset('/frontEnd/images/services/icons/printer.png') }}"
+                                                            alt=""> </span>
                                                     </div>
                                                     <div class="text">
-                                                        <h3>Symptom Check</h3>
+                                                        <h3>Note Book</h3>
                                                         <p>Far far away, behind the word mountains, far from the countries
                                                             Vokalia.</p>
                                                     </div>
@@ -354,10 +365,12 @@
                                                 <div class="services-2 d-flex">
                                                     <div
                                                         class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
-                                                        <span class="flaticon-heart-rate"></span>
+                                                        <span> <img
+                                                            src="{{ asset('/frontEnd/images/services/icons/printer.png') }}"
+                                                            alt=""> </span>
                                                     </div>
                                                     <div class="text">
-                                                        <h3>Heart Rate</h3>
+                                                        <h3>USB Drives</h3>
                                                         <p>Far far away, behind the word mountains, far from the countries
                                                             Vokalia.</p>
                                                     </div>
@@ -372,68 +385,79 @@
                                 <div class="row departments">
                                     <div class="col-lg-4 order-lg-last d-flex align-items-stretch">
                                         <div class="img d-flex align-self-stretch"
-                                            style="background-image: url({{ asset('frontEnd') }}/images/dept-2.jpg);">
+                                            style="background-image: url({{ asset('frontEnd') }}/images/services/corporate_design.PNG);">
                                         </div>
                                     </div>
                                     <div class="col-md-8">
-                                        <h2>Surgical Deparments</h2>
-                                        <p>On her way she met a copy. The copy warned the Little Blind Text, that where it
-                                            came from it would have been rewritten a thousand times and everything that was
-                                            left from its origin would be the word.</p>
-                                        <div class="row mt-5 pt-2">
-                                            <div class="col-lg-6">
-                                                <div class="services-2 d-flex">
-                                                    <div
-                                                        class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
-                                                        <span class="flaticon-first-aid-kit"></span>
+                                        <h2>Corporate Design</h2>
+                                        <p>Our large format printing capability produces high resolution PVC banners,
+                                            roll-up banners display banners, pop-up banners,pvc vinyl stickers, POS,
+                                            billboards, floorgraphics, one way stickers,Instore Branding (wabblers,
+                                            danglers,
+                                            shelf strip,shelf talkers, table talkers, standees) outdoor branding solutions
+                                            and much more.</p>
+                                            <div class="row mt-5 pt-2">
+                                                <div class="col-lg-6">
+                                                    <div class="services-2 d-flex">
+                                                        <div
+                                                            class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
+                                                            <span> <img
+                                                                    src="{{ asset('/frontEnd/images/services/icons/printer.png') }}"
+                                                                    alt=""> </span>
+                                                        </div>
+                                                        <div class="text">
+                                                            <h3>Caps and Shirt</h3>
+                                                            <p>Far far away, behind the word mountains, far from the countries
+                                                                Vokalia.</p>
+                                                        </div>
                                                     </div>
-                                                    <div class="text">
-                                                        <h3>Primary Care</h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia.</p>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="services-2 d-flex">
+                                                        <div
+                                                            class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
+                                                            <span> <img
+                                                                src="{{ asset('/frontEnd/images/services/icons/printer.png') }}"
+                                                                alt=""> </span>
+                                                        </div>
+                                                        <div class="text">
+                                                            <h3>Wall Clock</h3>
+                                                            <p>Far far away, behind the word mountains, far from the countries
+                                                                Vokalia.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="services-2 d-flex">
+                                                        <div
+                                                            class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
+                                                            <span> <img
+                                                                src="{{ asset('/frontEnd/images/services/icons/printer.png') }}"
+                                                                alt=""> </span>
+                                                        </div>
+                                                        <div class="text">
+                                                            <h3>Note Book</h3>
+                                                            <p>Far far away, behind the word mountains, far from the countries
+                                                                Vokalia.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="services-2 d-flex">
+                                                        <div
+                                                            class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
+                                                            <span> <img
+                                                                src="{{ asset('/frontEnd/images/services/icons/printer.png') }}"
+                                                                alt=""> </span>
+                                                        </div>
+                                                        <div class="text">
+                                                            <h3>USB Drives</h3>
+                                                            <p>Far far away, behind the word mountains, far from the countries
+                                                                Vokalia.</p>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
-                                                <div class="services-2 d-flex">
-                                                    <div
-                                                        class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
-                                                        <span class="flaticon-dropper"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <h3>Lab Test</h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="services-2 d-flex">
-                                                    <div
-                                                        class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
-                                                        <span class="flaticon-experiment-results"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <h3>Symptom Check</h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="services-2 d-flex">
-                                                    <div
-                                                        class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
-                                                        <span class="flaticon-heart-rate"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <h3>Heart Rate</h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -441,67 +465,79 @@
                                 <div class="row departments">
                                     <div class="col-lg-4 order-lg-last d-flex align-items-stretch">
                                         <div class="img d-flex align-self-stretch"
-                                            style="background-image: url({{ asset('frontEnd') }}/ages/dept-3.jpg);"></div>
+                                            style="background-image: url({{ asset('frontEnd') }}/images/services/large_format_printing.PNG);">
+                                        </div>
                                     </div>
                                     <div class="col-md-8">
-                                        <h2>Dental Deparments</h2>
-                                        <p>On her way she met a copy. The copy warned the Little Blind Text, that where it
-                                            came from it would have been rewritten a thousand times and everything that was
-                                            left from its origin would be the word.</p>
-                                        <div class="row mt-5 pt-2">
-                                            <div class="col-lg-6">
-                                                <div class="services-2 d-flex">
-                                                    <div
-                                                        class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
-                                                        <span class="flaticon-first-aid-kit"></span>
+                                        <h2>Large Format Printing</h2>
+                                        <p>Our large format printing capability produces high resolution PVC banners,
+                                            roll-up banners display banners, pop-up banners,pvc vinyl stickers, POS,
+                                            billboards, floorgraphics, one way stickers,Instore Branding (wabblers,
+                                            danglers,
+                                            shelf strip,shelf talkers, table talkers, standees) outdoor branding solutions
+                                            and much more.</p>
+                                            <div class="row mt-5 pt-2">
+                                                <div class="col-lg-6">
+                                                    <div class="services-2 d-flex">
+                                                        <div
+                                                            class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
+                                                            <span> <img
+                                                                    src="{{ asset('/frontEnd/images/services/icons/printer.png') }}"
+                                                                    alt=""> </span>
+                                                        </div>
+                                                        <div class="text">
+                                                            <h3>Caps and Shirt</h3>
+                                                            <p>Far far away, behind the word mountains, far from the countries
+                                                                Vokalia.</p>
+                                                        </div>
                                                     </div>
-                                                    <div class="text">
-                                                        <h3>Primary Care</h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia.</p>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="services-2 d-flex">
+                                                        <div
+                                                            class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
+                                                            <span> <img
+                                                                src="{{ asset('/frontEnd/images/services/icons/printer.png') }}"
+                                                                alt=""> </span>
+                                                        </div>
+                                                        <div class="text">
+                                                            <h3>Wall Clock</h3>
+                                                            <p>Far far away, behind the word mountains, far from the countries
+                                                                Vokalia.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="services-2 d-flex">
+                                                        <div
+                                                            class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
+                                                            <span> <img
+                                                                src="{{ asset('/frontEnd/images/services/icons/printer.png') }}"
+                                                                alt=""> </span>
+                                                        </div>
+                                                        <div class="text">
+                                                            <h3>Note Book</h3>
+                                                            <p>Far far away, behind the word mountains, far from the countries
+                                                                Vokalia.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="services-2 d-flex">
+                                                        <div
+                                                            class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
+                                                            <span> <img
+                                                                src="{{ asset('/frontEnd/images/services/icons/printer.png') }}"
+                                                                alt=""> </span>
+                                                        </div>
+                                                        <div class="text">
+                                                            <h3>USB Drives</h3>
+                                                            <p>Far far away, behind the word mountains, far from the countries
+                                                                Vokalia.</p>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
-                                                <div class="services-2 d-flex">
-                                                    <div
-                                                        class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
-                                                        <span class="flaticon-dropper"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <h3>Lab Test</h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="services-2 d-flex">
-                                                    <div
-                                                        class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
-                                                        <span class="flaticon-experiment-results"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <h3>Symptom Check</h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="services-2 d-flex">
-                                                    <div
-                                                        class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
-                                                        <span class="flaticon-heart-rate"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <h3>Heart Rate</h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -510,68 +546,79 @@
                                 <div class="row departments">
                                     <div class="col-lg-4 order-lg-last d-flex align-items-stretch">
                                         <div class="img d-flex align-self-stretch"
-                                            style="background-image: url({{ asset('frontEnd') }}/images/dept-4.jpg);">
+                                            style="background-image: url({{ asset('frontEnd') }}/images/services/online_printing.PNG);">
                                         </div>
                                     </div>
                                     <div class="col-md-8">
-                                        <h2>Ophthalmology Deparments</h2>
-                                        <p>On her way she met a copy. The copy warned the Little Blind Text, that where it
-                                            came from it would have been rewritten a thousand times and everything that was
-                                            left from its origin would be the word.</p>
-                                        <div class="row mt-5 pt-2">
-                                            <div class="col-lg-6">
-                                                <div class="services-2 d-flex">
-                                                    <div
-                                                        class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
-                                                        <span class="flaticon-first-aid-kit"></span>
+                                        <h2>Online Printing</h2>
+                                        <p>Our large format printing capability produces high resolution PVC banners,
+                                            roll-up banners display banners, pop-up banners,pvc vinyl stickers, POS,
+                                            billboards, floorgraphics, one way stickers,Instore Branding (wabblers,
+                                            danglers,
+                                            shelf strip,shelf talkers, table talkers, standees) outdoor branding solutions
+                                            and much more.</p>
+                                            <div class="row mt-5 pt-2">
+                                                <div class="col-lg-6">
+                                                    <div class="services-2 d-flex">
+                                                        <div
+                                                            class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
+                                                            <span> <img
+                                                                    src="{{ asset('/frontEnd/images/services/icons/printer.png') }}"
+                                                                    alt=""> </span>
+                                                        </div>
+                                                        <div class="text">
+                                                            <h3>Caps and Shirt</h3>
+                                                            <p>Far far away, behind the word mountains, far from the countries
+                                                                Vokalia.</p>
+                                                        </div>
                                                     </div>
-                                                    <div class="text">
-                                                        <h3>Primary Care</h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia.</p>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="services-2 d-flex">
+                                                        <div
+                                                            class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
+                                                            <span> <img
+                                                                src="{{ asset('/frontEnd/images/services/icons/printer.png') }}"
+                                                                alt=""> </span>
+                                                        </div>
+                                                        <div class="text">
+                                                            <h3>Wall Clock</h3>
+                                                            <p>Far far away, behind the word mountains, far from the countries
+                                                                Vokalia.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="services-2 d-flex">
+                                                        <div
+                                                            class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
+                                                            <span> <img
+                                                                src="{{ asset('/frontEnd/images/services/icons/printer.png') }}"
+                                                                alt=""> </span>
+                                                        </div>
+                                                        <div class="text">
+                                                            <h3>Note Book</h3>
+                                                            <p>Far far away, behind the word mountains, far from the countries
+                                                                Vokalia.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="services-2 d-flex">
+                                                        <div
+                                                            class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
+                                                            <span> <img
+                                                                src="{{ asset('/frontEnd/images/services/icons/printer.png') }}"
+                                                                alt=""> </span>
+                                                        </div>
+                                                        <div class="text">
+                                                            <h3>USB Drives</h3>
+                                                            <p>Far far away, behind the word mountains, far from the countries
+                                                                Vokalia.</p>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
-                                                <div class="services-2 d-flex">
-                                                    <div
-                                                        class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
-                                                        <span class="flaticon-dropper"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <h3>Lab Test</h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="services-2 d-flex">
-                                                    <div
-                                                        class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
-                                                        <span class="flaticon-experiment-results"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <h3>Symptom Check</h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="services-2 d-flex">
-                                                    <div
-                                                        class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
-                                                        <span class="flaticon-heart-rate"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <h3>Heart Rate</h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -580,68 +627,80 @@
                                 <div class="row departments">
                                     <div class="col-lg-4 order-lg-last d-flex align-items-stretch">
                                         <div class="img d-flex align-self-stretch"
-                                            style="background-image: url({{ asset('frontEnd') }}/images/dept-5.jpg);">
+                                            style="background-image: url({{ asset('frontEnd') }}/images/services/packaging_and_labelling.PNG);">
                                         </div>
                                     </div>
                                     <div class="col-md-8">
-                                        <h2>Cardiology Deparments</h2>
-                                        <p>On her way she met a copy. The copy warned the Little Blind Text, that where it
-                                            came from it would have been rewritten a thousand times and everything that was
-                                            left from its origin would be the word.</p>
-                                        <div class="row mt-5 pt-2">
-                                            <div class="col-md-6">
-                                                <div class="services-2 d-flex">
-                                                    <div
-                                                        class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
-                                                        <span class="flaticon-idea"></span>
+                                        <h2Packaging and Labelling</h2>
+                                            <p>Our large format printing capability produces high resolution PVC banners,
+                                                roll-up banners display banners, pop-up banners,pvc vinyl stickers, POS,
+                                                billboards, floorgraphics, one way stickers,Instore Branding (wabblers,
+                                                danglers,
+                                                shelf strip,shelf talkers, table talkers, standees) outdoor branding
+                                                solutions
+                                                and much more.</p>
+                                                <div class="row mt-5 pt-2">
+                                                    <div class="col-lg-6">
+                                                        <div class="services-2 d-flex">
+                                                            <div
+                                                                class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
+                                                                <span> <img
+                                                                        src="{{ asset('/frontEnd/images/services/icons/printer.png') }}"
+                                                                        alt=""> </span>
+                                                            </div>
+                                                            <div class="text">
+                                                                <h3>Caps and Shirt</h3>
+                                                                <p>Far far away, behind the word mountains, far from the countries
+                                                                    Vokalia.</p>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                    <div class="text">
-                                                        <h3>Primary Care</h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia.</p>
+                                                    <div class="col-lg-6">
+                                                        <div class="services-2 d-flex">
+                                                            <div
+                                                                class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
+                                                                <span> <img
+                                                                    src="{{ asset('/frontEnd/images/services/icons/printer.png') }}"
+                                                                    alt=""> </span>
+                                                            </div>
+                                                            <div class="text">
+                                                                <h3>Wall Clock</h3>
+                                                                <p>Far far away, behind the word mountains, far from the countries
+                                                                    Vokalia.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="services-2 d-flex">
+                                                            <div
+                                                                class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
+                                                                <span> <img
+                                                                    src="{{ asset('/frontEnd/images/services/icons/printer.png') }}"
+                                                                    alt=""> </span>
+                                                            </div>
+                                                            <div class="text">
+                                                                <h3>Note Book</h3>
+                                                                <p>Far far away, behind the word mountains, far from the countries
+                                                                    Vokalia.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="services-2 d-flex">
+                                                            <div
+                                                                class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
+                                                                <span> <img
+                                                                    src="{{ asset('/frontEnd/images/services/icons/printer.png') }}"
+                                                                    alt=""> </span>
+                                                            </div>
+                                                            <div class="text">
+                                                                <h3>USB Drives</h3>
+                                                                <p>Far far away, behind the word mountains, far from the countries
+                                                                    Vokalia.</p>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="services-2 d-flex">
-                                                    <div
-                                                        class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
-                                                        <span class="flaticon-idea"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <h3>Lab Test</h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="services-2 d-flex">
-                                                    <div
-                                                        class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
-                                                        <span class="flaticon-idea"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <h3>Symptom Check</h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="services-2 d-flex">
-                                                    <div
-                                                        class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
-                                                        <span class="flaticon-idea"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <h3>Heart Rate</h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -652,7 +711,7 @@
         </div>
     </section>
 
-    <section class="ftco-section ftco-no-pt">
+    {{-- <section class="ftco-section ftco-no-pt">
         <div class="container">
             <div class="row justify-content-center mb-5 pb-2">
                 <div class="col-md-8 text-center heading-section ftco-animate">
@@ -749,9 +808,84 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
+    <section class="ftco-section ftco-no-pt">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-2">
+                <div class="col-md-8 text-center heading-section ftco-animate">
+                    <span class="subheading">Printing</span>
+                    <h2 class="mb-4">Printing Services</h2>
+                    <p>We provide our clients with high quality printing of business cards, brochures,
+                        posters, z-cards, banners, booklets, magazines among others at affordable
+                        prices. </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 ftco-animate">
+                    <div class="blog-entry">
+                        <a href="#">
 
-    <section class="ftco-section testimony-section bg-light">
+                            <img src="{{ asset('frontEnd/images/services/designing.PNG') }}" alt="">
+                        </a>
+                        <div class="text bg-white p-4">
+                            <h3 class="heading"><a href="#">Designing</a></h3>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.</p>
+                            <div class="d-flex align-items-center mt-4">
+                                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span
+                                            class="ion-ios-arrow-round-forward"></span></a></p>
+                                <p class="ml-auto mb-0">
+                                    <a href="#" class="mr-2">User</a>
+                                    <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ftco-animate">
+                    <div class="blog-entry">
+                        <a href="#">
+                            <img src="{{ asset('frontEnd/images/services/printing.PNG') }}" alt="">
+                        </a>
+                        <div class="text bg-white p-4">
+                            <h3 class="heading"><a href="#">Printing</a></h3>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.</p>
+                            <div class="d-flex align-items-center mt-4">
+                                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span
+                                            class="ion-ios-arrow-round-forward"></span></a></p>
+                                <p class="ml-auto mb-0">
+                                    <a href="#" class="mr-2">User</a>
+                                    <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ftco-animate">
+                    <div class="blog-entry">
+                        <a href="#">
+                            <img src="{{ asset('frontEnd/images/services/printing_and_finishing.png') }}" alt="">
+                        </a>
+                        <div class="text bg-white p-4">
+                            <h3 class="heading"><a href="#">Printing and Finishing</a></h3>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.</p>
+                            <div class="d-flex align-items-center mt-4">
+                                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span
+                                            class="ion-ios-arrow-round-forward"></span></a></p>
+                                <p class="ml-auto mb-0">
+                                    <a href="#" class="mr-2">User</a>
+                                    <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- <section class="ftco-section testimony-section bg-light">
         <div class="container">
             <div class="row justify-content-center mb-5 pb-2">
                 <div class="col-md-8 text-center heading-section ftco-animate">
@@ -848,7 +982,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter"
         style="background-image: url({{ asset('frontEnd') }}/images/bg_3.jpg);" data-stellar-background-ratio="0.5">
@@ -856,10 +990,10 @@
             <div class="row">
                 <div class="col-md-6 py-5 pr-md-5">
                     <div class="heading-section heading-section-white ftco-animate mb-5">
-                        <span class="subheading">Consultation</span>
+                        <span class="subheading">Contact Us</span>
                         <h2 class="mb-4">Free Consultation</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                            live the blind texts.</p>
+                        {{--  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                            live the blind texts.</p>  --}}
                     </div>
                     <form action="#" class="appointment-form ftco-animate">
                         <div class="d-md-flex">
@@ -922,7 +1056,7 @@
                             <div class="block-18 p-5 bg-light">
                                 <div class="text">
                                     <strong class="number" data-number="30">0</strong>
-                                    <span>Years of Experienced</span>
+                                    <span>Years of Experience</span>
                                 </div>
                             </div>
                         </div>
@@ -930,7 +1064,7 @@
                             <div class="block-18 p-5 bg-light">
                                 <div class="text">
                                     <strong class="number" data-number="4500">0</strong>
-                                    <span>Happy Patients</span>
+                                    <span>Happy Customers</span>
                                 </div>
                             </div>
                         </div>
@@ -938,7 +1072,7 @@
                             <div class="block-18 p-5 bg-light">
                                 <div class="text">
                                     <strong class="number" data-number="84">0</strong>
-                                    <span>Number of Doctors</span>
+                                    <span>Number of Designers</span>
                                 </div>
                             </div>
                         </div>
@@ -946,7 +1080,7 @@
                             <div class="block-18 p-5 bg-light">
                                 <div class="text">
                                     <strong class="number" data-number="300">0</strong>
-                                    <span>Number of Staffs</span>
+                                    <span>Number of Staff</span>
                                 </div>
                             </div>
                         </div>
@@ -956,7 +1090,7 @@
         </div>
     </section>
 
-    <section class="ftco-section bg-light">
+    {{-- <section class="ftco-section bg-light">
         <div class="container">
             <div class="row justify-content-center mb-5 pb-2">
                 <div class="col-md-8 text-center heading-section ftco-animate">
@@ -1033,97 +1167,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
-    <section class="ftco-section bg-light">
-        <div class="container">
-            <div class="row justify-content-center mb-5 pb-2">
-                <div class="col-md-8 text-center heading-section ftco-animate">
-                    <span class="subheading">Blog</span>
-                    <h2 class="mb-4">Recent Blog</h2>
-                    <p>Separated they live in. A small river named Duden flows by their place and supplies it with the
-                        necessary regelialia. It is a paradisematic country</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 ftco-animate">
-                    <div class="blog-entry">
-                        <a href="blog-single.html" class="block-20"
-                            style="background-image: url('{{ asset('frontEnd') }}/images/image_1.jpg');">
-                            <div class="meta-date text-center p-2">
-                                <span class="day">23</span>
-                                <span class="mos">January</span>
-                                <span class="yr">2019</span>
-                            </div>
-                        </a>
-                        <div class="text bg-white p-4">
-                            <h3 class="heading"><a href="#">Scary Thing That You Don’t Get Enough Sleep</a></h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                                there live the blind texts.</p>
-                            <div class="d-flex align-items-center mt-4">
-                                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span
-                                            class="ion-ios-arrow-round-forward"></span></a></p>
-                                <p class="ml-auto mb-0">
-                                    <a href="#" class="mr-2">Admin</a>
-                                    <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ftco-animate">
-                    <div class="blog-entry">
-                        <a href="blog-single.html" class="block-20"
-                            style="background-image: url('{{ asset('frontEnd') }}/images/image_2.jpg');">
-                            <div class="meta-date text-center p-2">
-                                <span class="day">23</span>
-                                <span class="mos">January</span>
-                                <span class="yr">2019</span>
-                            </div>
-                        </a>
-                        <div class="text bg-white p-4">
-                            <h3 class="heading"><a href="#">Scary Thing That You Don’t Get Enough Sleep</a></h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                                there live the blind texts.</p>
-                            <div class="d-flex align-items-center mt-4">
-                                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span
-                                            class="ion-ios-arrow-round-forward"></span></a></p>
-                                <p class="ml-auto mb-0">
-                                    <a href="#" class="mr-2">Admin</a>
-                                    <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ftco-animate">
-                    <div class="blog-entry">
-                        <a href="blog-single.html" class="block-20"
-                            style="background-image: url('{{ asset('frontEnd') }}/images/image_3.jpg');">
-                            <div class="meta-date text-center p-2">
-                                <span class="day">23</span>
-                                <span class="mos">January</span>
-                                <span class="yr">2019</span>
-                            </div>
-                        </a>
-                        <div class="text bg-white p-4">
-                            <h3 class="heading"><a href="#">Scary Thing That You Don’t Get Enough Sleep</a></h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                                there live the blind texts.</p>
-                            <div class="d-flex align-items-center mt-4">
-                                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span
-                                            class="ion-ios-arrow-round-forward"></span></a></p>
-                                <p class="ml-auto mb-0">
-                                    <a href="#" class="mr-2">Admin</a>
-                                    <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
 
 

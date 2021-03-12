@@ -8712,7 +8712,7 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
-    margin-bottom: 3rem !important;
+    margin-bottom: 5px !important;
 }
 
 .ml-5,
@@ -11568,7 +11568,7 @@ h5,
 }
 
 .services-2 {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .services-2 .icon {
@@ -11580,7 +11580,7 @@ h5,
 }
 
 .services-2 .icon span {
-    font-size: 30px;
+    font-size: 28px;
     color: #2f89fc;
 }
 
@@ -11644,11 +11644,11 @@ h5,
 }
 
 .ftco-departments .nav-pills .nav-link {
-    padding: 35px 30px !important;
+    padding: 10px 5px !important;
     border-radius: 0;
     margin-bottom: 0;
     color: #000000;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
     position: relative;
     display: inline-block;
@@ -12156,7 +12156,7 @@ textarea.form-control {
 .ftco-footer {
     font-size: 14px;
     background: #141313;
-    padding: 6em 0;
+    padding: 5px 5px;
 }
 
 .ftco-footer .ftco-footer-widget {
@@ -12167,7 +12167,7 @@ textarea.form-control {
 .ftco-footer .ftco-footer-widget h2 {
     font-weight: normal;
     color: #fff;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     font-size: 22px;
     font-weight: 700;
 }

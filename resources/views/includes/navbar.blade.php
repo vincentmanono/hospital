@@ -28,16 +28,17 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
-      <p class="button-custom order-lg-last mb-0"><a href="appointment.html" class="btn btn-secondary py-2 px-3">Make An Appointment</a></p>
+      {{--  <p class="button-custom order-lg-last mb-0"><a href="appointment.html" class="btn btn-secondary py-2 px-3">Make An Appointment</a></p>  --}}
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"><a href="#" class="nav-link pl-0">LOGO HERE</a></li>
             <li class="nav-item active"><a href="/" class="nav-link pl-0">Home</a></li>
-            <li class="nav-item"><a href="about" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="/doctor" class="nav-link">Services</a></li>
-            <li class="nav-item"><a href="/departments" class="nav-link">Portfolio</a></li>
-            <li class="nav-item"><a href="/pricing " class="nav-link">Gallery</a></li>
-            <li class="nav-item"><a href="/blog" class="nav-link">Blog</a></li>
-          <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Gallery</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
         </ul>
       </div>
     </div>
